@@ -1,4 +1,4 @@
-import { NotificationsNone } from "@material-ui/icons";
+import { Language, NotificationsNone, Settings } from "@material-ui/icons";
 import React from "react";
 import "./topbar.css";
 
@@ -14,6 +14,18 @@ function Topbar() {
             <NotificationsNone />
             <span className="topIconBadge">2</span>
           </div>
+          <div className="topbarIconConatiner">
+            <Language />
+            <span className="topIconBadge">2</span>
+          </div>
+          <div className="topbarIconConatiner">
+            <Settings />
+          </div>
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0"
+            alt=""
+            className="topAvatar"
+          />
         </div>
       </div>
     </div>
