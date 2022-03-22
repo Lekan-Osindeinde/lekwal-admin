@@ -48,3 +48,95 @@ export const userData = [
     "Active User": 9000,
   },
 ];
+export const userRows = [
+  {
+    id: 1,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+  {
+    id: 2,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+  {
+    id: 3,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+  {
+    id: 4,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+  {
+    id: 5,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+  {
+    id: 6,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+  {
+    id: 7,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+  {
+    id: 8,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+  {
+    id: 9,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+  {
+    id: 10,
+    username: "John Snow",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGFY3PDZFyOAQ/profile-displayphoto-shrink_800_800/0/1643410903425?e=1653523200&v=beta&t=VSm9xghFEThT2hxVy4COLt0JxN6IHtx9fCXbVjgmpq0",
+    email: "ifeoluwa@gmail.com",
+    status: "active",
+    transaction: "$125.00",
+  },
+];
