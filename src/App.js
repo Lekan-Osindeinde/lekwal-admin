@@ -3,6 +3,7 @@ import "./app.css";
 import SideBar from "./components/sidebar/SideBar";
 import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/home/Home";
+import NewUser from "./pages/newUser/NewUser";
 import User from "./pages/user/User";
 import UserList from "./pages/userList/UserList";
 
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/user/:userid">
             <User />
+          </Route>
+          <Route path="/newUser">
+            <NewUser />
           </Route>
         </Switch>
       </div>

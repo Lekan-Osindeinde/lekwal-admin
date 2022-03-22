@@ -79,7 +79,7 @@ export default function User() {
               <div className="userUpdateItem">
                 <label>Email</label>
                 <input
-                  type="text"
+                  type="email"
                   placeholder="@email.com"
                   className="userUpdateInput"
                 />

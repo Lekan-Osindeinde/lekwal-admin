@@ -12,6 +12,7 @@ import {
   Timeline,
   TrendingUp,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import "./sideBar.css";
 
 function SideBar() {
@@ -38,14 +39,18 @@ function SideBar() {
         <div className="sideBarMenu">
           <h3 className="sideBarTitle">Quick Menu</h3>
           <ul className="sideBarList">
-            <li className="sideBarItem">
-              <Group className="sideBarIcon" />
-              Users
-            </li>
-            <li className="sideBarItem">
-              <Category className="sideBarIcon" />
-              Products
-            </li>
+            <Link to="/users" className="link">
+              <li className="sideBarItem">
+                <Group className="sideBarIcon" />
+                Users
+              </li>
+            </Link>
+            <Link to="/products" className="link">
+              <li className="sideBarItem">
+                <Category className="sideBarIcon" />
+                Products
+              </li>
+            </Link>
             <li className="sideBarItem">
               <Receipt className="sideBarIcon" />
               Transactions
