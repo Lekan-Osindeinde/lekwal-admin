@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lekwal-admin/static/css/main.ff2461dc.css",
+    "main.js": "/lekwal-admin/static/js/main.8d597a3f.js",
+    "index.html": "/lekwal-admin/index.html",
+    "main.ff2461dc.css.map": "/lekwal-admin/static/css/main.ff2461dc.css.map",
+    "main.8d597a3f.js.map": "/lekwal-admin/static/js/main.8d597a3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff2461dc.css",
+    "static/js/main.8d597a3f.js"
+  ]
+}
