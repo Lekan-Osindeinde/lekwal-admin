@@ -27,8 +27,8 @@ export default function User() {
               className="userShowImg"
             />
             <div className="userTopTitle">
-              <span className="userShowUsername">Lorenz Lopez</span>
-              <span className="userShowTitle">Structural Engineer</span>
+              <span className="userShowUsername">Lekan Osindeinde</span>
+              <span className="userShowTitle">Frontend web developer</span>
             </div>
           </div>
           <div className="userShowBottom">
@@ -39,7 +39,7 @@ export default function User() {
             </div>
             <div className="userShowInfo">
               <CalendarToday className="userShowIcon" />
-              <span className="userShowInfoTitle">15.04.199</span>
+              <span className="userShowInfoTitle">15.04.1997</span>
             </div>
             <span className="userShowTitle">Contact Details</span>
             <div className="userShowInfo">

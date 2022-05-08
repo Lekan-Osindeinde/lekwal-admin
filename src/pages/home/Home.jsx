@@ -24,8 +24,6 @@ export default function Home(props) {
   return (
     <div className="home">
       <FeaturesInfo />
-
-      <h3 className="chartTitle">User Analytics</h3>
       <div className="chartSliderContainer">
         <VerticalSlider onValueSet={getSliderValue} className="chartSlider" />
         <Chart
