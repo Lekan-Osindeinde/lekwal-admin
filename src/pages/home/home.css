@@ -1,7 +1,11 @@
 .home{
     flex: 4;
 }
-
+.chartSliderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .homeWidget{
     display: flex;
     margin: 20px;

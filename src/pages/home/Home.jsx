@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Chart from "../../components/chart/Chart";
 import FeaturesInfo from "../../components/featuresInfo/FeaturesInfo";
 import VerticalSlider from "../../components/VerticalSlider/VerticalSlider";
@@ -6,26 +7,38 @@ import WidgetSm from "../../components/widgetSm/WidgetSm";
 import { userData } from "../../dummyData";
 import "./home.css";
 
-function Home() {
+export default function Home(props) {
+  const [sliderValue, setSliderValue] = useState(1);
+  const getSliderValue = (value) => {
+    setSliderValue(value);
+  };
+
+  const calculateNewMonth = (month) => {
+    const activeUserValue = sliderValue * month["Active User"];
+    const newMonthValue = { ...month, "Active User": activeUserValue };
+
+    return newMonthValue;
+  };
+
+  const userDataTransform = userData.map(calculateNewMonth);
   return (
     <div className="home">
-      <div>
-        <FeaturesInfo />
-      </div>
-      <div className="vslider">
-        <VerticalSlider />
+      <FeaturesInfo />
+
+      <h3 className="chartTitle">User Analytics</h3>
+      <div className="chartSliderContainer">
+        <VerticalSlider onValueSet={getSliderValue} className="chartSlider" />
         <Chart
-          data={userData}
-          title="user analytics"
+          data={userDataTransform}
+          title="User Analytics"
           grid
           dataKey="Active User"
-        />
+        ></Chart>
       </div>
-      <div className="homeWidget">
-        <WidgetSm />
-        <WidgetLg />
+      <div className="homeWidgets">
+        <WidgetSm></WidgetSm>
+        <WidgetLg></WidgetLg>
       </div>
     </div>
   );
 }
-export default Home;
